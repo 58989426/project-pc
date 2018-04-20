@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+/*底部布局*/
+footer{
+    background: white;
+}
+.img-main{
+    height: 90px;
+    background: #f6f1e2;
+}
+.img-service{
+    height: 90px;
+    line-height: 90px;
+    background: #f6f1e2;
+}
+.sp-footer-list li{
+    width: calc(100% / 4);
+    width: -moz-calc(100% / 4);
+    width: -webkit-calc(100% / 4);
+    float: left;
+    text-align: center;
+}
+.sp-footer-img-top{
+    margin-top: 16px;
+    vertical-align: top;
+}
+/*底部帮助列表样式*/
+.help-list{
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+.help-list-lg{
+    padding-left: 120px;
+}
+.help-list-nav{
+    float: left;
+    width: calc(100% / 5);
+    width: -moz-calc(100% / 5);
+    width: -webkit-calc(100% / 5);
+    vertical-align: top;
+    padding-top: 40px;
+    line-height: 20px;
+}
+.sp-footer-lg{
+    width: calc(100% / 5);
+    width: -moz-calc(100% / 5);
+    width: -webkit-calc(100% / 5);
+}
+.help-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*关于我们样式*/
+.f_rights{
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+.us-list{
+    margin-bottom: 20px;
+}
+.us-list a{
+    margin: 0 5px;
+}
+.help-list-nav a:hover,.us-list a:hover{
+	color:#7bbe2b;
+}
+/*登录注册底部布局样式*/
+.footer {
+    /*margin-top: 50px;*/
+    text-align: center;
+}
+.sp-login-border-top{
+    border-top: 1px solid #ddd;
+    min-width: 1000px;
+}
+.sp-footer-margin {
+    margin: 20px 0 10px;
+}
+.sp-footer-margin > a {
+    padding: 0 5px;
+}
